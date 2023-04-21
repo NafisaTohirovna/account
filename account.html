@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <!-- <img src="./images/photo_2023-04-20_17-42-29 (2).jpg" width="400" alt=""> -->
+    <main>
+        <div class="container">
+            <a href="./index.html"><div class="left-down"><i class="uil uil-times"></i>  <div class="check-wrap"> <i class="uil uil-check check"></i></div></div></a>
+            <h1 class="title">Account</h1>
+            <div class="date">
+                <div class=" set photo">
+                    <p>Photo</p>
+                    <div class="user-img"><i class="uil uil-user"></i><div id="my-node">
+                        <img id="blah"/>
+                        <div class="tag">
+                      
+                        </div>
+                      </div></div>
+                    <!-- <div class="user-img1" ><img  style="height: 100px; width: 100px ;" src="C:\fakepath\photo_2023-04-10_21-23-54.jpg" alt="" id="img"></div> -->
+                    
+                </div>
+                <div class="img-dowonload">
+                    <form>
+                        <menu>
+                            <input id="file" type='file' onchange="readURL(this);"/>
+                          </menu>
+                        <label for="file">
+                           Upload Image 
+                        </label>
+                    </form>
+                </div>
+                <div class="set name">
+                    <label for="name">Name</label>
+                    <input type="text" name="" id="name" placeholder="Nafisa Tohirovna">
+                </div>
+                <div class="set">
+                    <p>Gender</p>
+                    <div class="gender">
+                        <div id="gen-boy" onclick="gender(0)" class="gen"><span><i class="uil uil-mars"></i></span></div>
+                        <div id="gen-girl"  onclick="gender(1)" class="gen"><span><i class="uil uil-venus"></i></span></div>
+                    </div>
+                </div>
+                <div class="set age">
+                    <label for="number">Age</label>
+                    <input type="number" name="" id="number" placeholder="     28">
+                </div>
+                <div class="set email">
+                    <label for="email">Email</label>
+                    <input type="emal" name="" id="email" placeholder="  tohiirovna@gmail.com">
+                </div>
+            </div>
+        </div>
+
+        
+    </main>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>

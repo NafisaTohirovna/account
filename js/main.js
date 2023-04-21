@@ -23,9 +23,6 @@ function setTheme(themeName) {
   })();
   //  darktheme end 
 
-
-
-
   const image_input = document.querySelector("#image_input");
   let updownload_image = "";
   
@@ -37,3 +34,6 @@ function setTheme(themeName) {
       })
       reader.readAsDataURL(this.files[0]);
   })
+
+
+

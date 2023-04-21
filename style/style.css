@@ -6,7 +6,7 @@
   list-style: none;
   text-decoration: none;
   font-family: "Roboto";
-  transition: all 0.5s ease;
+  transition: all 0.7s ease;
 }
 
 :root {
@@ -250,6 +250,9 @@ main .container .date .set .user-img {
   align-items: center;
   justify-content: center;
   background: var(--primary);
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
 }
 main .container .date .set .user-img i {
   font-size: 25px;
@@ -260,6 +263,7 @@ main .container .date .set .gender {
   gap: 30px;
 }
 main .container .date .set .gender .gen {
+  cursor: pointer;
   background: var(--primary);
   width: 50px;
   height: 50px;
